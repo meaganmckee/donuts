@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
 import Result from "../models/Result";
-import { getDonuts } from "../services/donutService";
 import { Link } from "react-router-dom";
 import "./DonutContainer.css";
+import Card from "./Card";
+import Details from "./Details";
+import SingleDonut from "../models/SingleDonut";
 
 interface Props {
   donuts: Result[];

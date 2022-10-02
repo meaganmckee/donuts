@@ -1,5 +1,5 @@
 export default interface SingleDonut {
-  id: number;
+  id?: number;
   name: string;
   calories: number;
   photo: string;

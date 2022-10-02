@@ -5,6 +5,7 @@ import {
   Routes,
 } from "react-router-dom";
 import "./App.css";
+import Card from "./components/Card";
 import Details from "./components/Details";
 import Header from "./components/Header";
 import Main from "./components/Main";
